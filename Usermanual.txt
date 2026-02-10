@@ -1,0 +1,30 @@
+Installation and Usage Instructions for the ISMT Management System
+
+ Step-by-Step Guide:
+
+1. Placement of Files:
+   - Place the project folder inside the `htdocs` directory located in the `xampp` folder of your XAMPP installation drive.
+
+2. Running XAMPP and Importing the Database:
+   - Start XAMPP.
+   - Open phpMyAdmin (usually available at http://localhost/phpmyadmin).
+   - Import the database file included in this project.
+
+3. Student Login:
+   - Use the following URL to access the student login page: 
+     http://localhost/Hackathon%20Project/PHP/student_login.php
+   
+   - Manually add your email and set a password in the `student_Table` table of the database.
+   - Log in using the email and password you entered.
+
+4. Operational Admin Access:
+   - Use the following URL to access the operational admin login page:
+     http://localhost/Hackathon%20Project/PHP/operation_admin/operational_login.php
+     
+   - Use the following dummy credentials to log in:
+     -Email: operationaladmin@ismt.edu.np
+     - Password: operationaladmin
+
+
+
+Enjoy using the ISMT Management System! If you encounter any issues, please contact: kit23i.scn@ismt.edu.np
